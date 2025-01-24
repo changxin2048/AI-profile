@@ -1,0 +1,31 @@
+{
+  "name": "aiagent-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "NODE_ENV=production node dist/index.js",
+    "build": "tsc && xcopy /E /I /Y src\\db\\migrations dist\\db\\migrations",
+    "dev": "ts-node src/index.ts",
+    "postinstall": "npm run build"
+  },
+  "dependencies": {
+    "@baiducloud/qianfan": "^0.2.2",
+    "aiagent-backend": "file:",
+    "axios": "^1.7.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.6",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "openai": "^4.80.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "tencentcloud-sdk-nodejs-hunyuan": "^4.0.984",
+    "zhipuai-sdk-nodejs-v4": "^0.1.12"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.17.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}

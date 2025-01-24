@@ -1,0 +1,41 @@
+.home-layout {
+  display: flex;
+  height: 97.5vh;
+}
+
+.responsive-layout {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+
+.bookmark-area {
+  max-width: 20vh;
+}
+
+@media (max-aspect-ratio: 1/1) {
+
+  .responsive-layout {
+    padding: 0 !important;
+  }
+ 
+  .sidebar-area,
+  .bookmark-area {
+    display: none !important;
+  }
+
+  .search-area {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    justify-content: center !important; 
+  }
+}
+
+@media (max-aspect-ratio: 1.5/1) {
+  .bookmark-area {
+    width: 20%;
+  }
+}

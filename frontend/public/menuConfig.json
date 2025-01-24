@@ -1,0 +1,97 @@
+{
+  "menuItems": [
+    {
+      "id": "aiapps",
+      "icon": "🎯",
+      "label": "常用功能",
+      "children": [
+        {
+            "id": "4A-system",
+            "title": "4A系统",
+            "description": "4A系统",
+            "url": "http://4a.chinatowercom.cn/uac_oa/"
+        },
+        {
+            "id": "jinshan-wen-dang",
+            "title": "金山文档",
+            "description": "金山文档",
+            "url": "http://yundoc.chinatowercom.cn/kdrive/latest"
+        },
+        {
+          "id": "chandao",
+          "title": "禅道",
+          "description": "禅道项目管理软件",
+          "url": "http://10.43.86.7:9780/zentao/qa.html"
+        },
+        {
+          "id": "huawei-cloud",
+          "title": "华为云",
+          "description": "华为云",
+          "url": "https://auth.huaweicloud.com/authui/login.html"
+        },
+        {
+          "id": "baolei-ji",
+          "title": "堡垒机",
+          "description": "堡垒机",
+          "url": "https://cbh.chinatowercom.cn/"
+        },
+        {
+          "id": "yuan-dai-ma-jian-ge-fen-xi",
+          "title": "源代码-组件分析",
+          "description": "源代码-组件分析",
+          "url": "https://10.38.114.6/#/project/projectList"
+        }
+      ]
+    },
+    {
+      "id": "application",
+      "icon": "🎨",
+      "label": "应用入口",
+      "children": [
+        {
+          "id": "tie-ta-huan-dian",
+          "title": "铁塔换电-生产",
+          "description": "铁塔换电",
+          "url": "https://hd.chinatowercom.cn:8083"
+        },
+        {
+          "id": "tie-ta-huan-dian-test",
+          "title": "铁塔换电-准生产",
+          "description": "铁塔换电",
+          "url": "https://hd.tower0788.cn/index"
+        },
+        {
+          "id": "tie-ta-chong-dian",
+          "title": "铁塔充电",
+            "description": "铁塔充电",
+          "url": "https://tie-ta-chong-dian.tiebaotest.com"
+        },
+        {
+          "id": "qiche-chong-dian",
+          "title": "汽车充电",
+            "description": "汽车充电",
+          "url": "https://qiche-chong-dian.tiebaotest.com"
+        },
+        {
+          "id": "xiaota-chuxing",
+          "title": "小塔出行",
+          "description": "小塔出行",
+          "url": "https://xiaota-chuxing.tiebaotest.com"
+        }
+      ]
+    },
+    {
+      "id": "ai-tools",
+      "icon": "✏️",
+      "label": "AI工具",
+      "children": [
+        {
+          "id": "notion-ai",
+          "title": "Notion AI",
+          "description": "智能写作和编辑助手",
+          "url": "https://notion-ai.tiebaotest.com"
+        }
+      ]
+    }
+  ]
+} 
